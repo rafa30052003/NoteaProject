@@ -1,0 +1,74 @@
+<body>
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-8">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Notea: Tu Aplicación de Notas Favorita</h5>
+                        <p class="card-subtitle mb-2">Organiza tus pensamientos, ideas y tareas de manera simple y efectiva.</p>
+                        <p class="card-text">¡Bienvenido a Notea, la aplicación de notas que simplifica tu vida! Con Notea, puedes tomar notas, hacer listas de tareas y mantener todo organizado en un solo lugar.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <div class="row features">
+            <div class="col-md-4 feature-item">
+                <div class="feature-icon">&#128220;</div>
+                <div class="feature-title">Tomar Notas Rápidas</div>
+                <p class="text-muted">Captura tus ideas en el momento sin perder tiempo.</p>
+            </div>
+            <div class="col-md-4 feature-item">
+                <div class="feature-icon">&#9997;</div>
+                <div class="feature-title">Listas de Tareas</div>
+                <p class="text-muted">Crea listas de tareas para mantenerte organizado y productivo.</p>
+            </div>
+            <div class="col-md-4 feature-item">
+                <div class="feature-icon">&#128195;</div>
+                <div class="feature-title">Diseño Intuitivo</div>
+                <p class="text-muted">Interfaz fácil de usar para una experiencia fluida.</p>
+            </div>
+        </div>
+    </div>
+    <div class="container mt-4">
+        <h2 class="text-center mb-4">{{mensaje}}</h2>
+        <div id="noteCarousel" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img [src]="src" alt="Cargando la tu nota mas especial...">
+                </div>
+                <div class="carousel-item">
+                    <img [src]="src" alt="Cargando la tu nota mas especial...">
+                </div>
+                <div class="carousel-item">
+                    <img [src]="src" alt="Cargando la tu nota mas especial...">
+                </div>
+                <!-- Puedes agregar más imágenes según sea necesario -->
+            </div>
+            <a class="carousel-control-prev"  role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next"  role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
+   
+</body>
+
+
+
+
+
+
+
+
+<!-- 
+    
+    <img [src]="src" alt="Cargando la tu nota mas especial...">
+<p></p>
+    
+    
+    src = 'https://source.unsplash.com/random'-->

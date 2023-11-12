@@ -1,0 +1,17 @@
+
+    
+      .navbar-nav a,
+      .navbar-nav .dropdown-menu li span,
+      .navbar-toggler-icon {
+          color: white;
+          font-weight: bold;
+      }
+
+      .navbar-nav .dropdown-menu .dropdown-item {
+          color: black !important; /* Importante para sobrescribir estilos anteriores */
+      }
+
+      .navbar-nav .dropdown-menu li span {
+          color: black; /* Establecer el color del texto a negro */
+      }
+
